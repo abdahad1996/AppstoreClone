@@ -32,6 +32,7 @@ class SearchResultCell: UICollectionViewCell {
         let iv = UIImageView()
         iv.widthAnchor.constraint(equalToConstant: 64).isActive = true
         iv.heightAnchor.constraint(equalToConstant: 64).isActive = true
+        iv.backgroundColor = .red
         iv.layer.cornerRadius = 12
         iv.clipsToBounds = true
         return iv
@@ -40,18 +41,26 @@ class SearchResultCell: UICollectionViewCell {
     let nameLabel: UILabel = {
         let label = UILabel()
         label.text = "APP NAME"
+        label.backgroundColor = .clear
+        label.textAlignment = NSTextAlignment.left
         return label
     }()
     
     let categoryLabel: UILabel = {
         let label = UILabel()
         label.text = "Photos & Video"
+        label.backgroundColor = .clear
+        label.textAlignment = NSTextAlignment.left
+
         return label
     }()
     
     let ratingsLabel: UILabel = {
         let label = UILabel()
         label.text = "9.26M"
+        label.backgroundColor = .clear
+        label.textAlignment = NSTextAlignment.left
+
         return label
     }()
     
@@ -91,6 +100,7 @@ class SearchResultCell: UICollectionViewCell {
         
         let infoTopStackView = UIStackView(arrangedSubviews: [
             appIconImageView,
+            
             VerticalStackView(arrangedSubviews: [
                 nameLabel, categoryLabel, ratingsLabel
                 ]),
@@ -99,6 +109,8 @@ class SearchResultCell: UICollectionViewCell {
             ])
         infoTopStackView.spacing = 12
         infoTopStackView.alignment = .center
+        infoTopStackView.distribution = .fill
+        infoTopStackView.backgroundColor = .green
         // allgnment if its trailing will be top and leading will be bottom for horizontal
         // alignment will be trailing for vertical and leading for vertical if trailong and leading respectively
         

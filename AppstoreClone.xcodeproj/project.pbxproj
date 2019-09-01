@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		160595B322DC28F000FF91E2 /* HorizontalSnapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160595B222DC28F000FF91E2 /* HorizontalSnapController.swift */; };
 		160595B522DC295C00FF91E2 /* BetterSnappingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160595B422DC295C00FF91E2 /* BetterSnappingLayout.swift */; };
+		1611FCDC231B58E000B86901 /* animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611FCDB231B58E000B86901 /* animation.swift */; };
 		1682042C22CC86B800BF436C /* AppsGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682042B22CC86B800BF436C /* AppsGroupCell.swift */; };
 		1682042E22CCB92A00BF436C /* AppHorizontalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682042D22CCB92A00BF436C /* AppHorizontalController.swift */; };
 		1682043022CCBC4600BF436C /* AppRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682042F22CCBC4600BF436C /* AppRowCell.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		160595B222DC28F000FF91E2 /* HorizontalSnapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSnapController.swift; sourceTree = "<group>"; };
 		160595B422DC295C00FF91E2 /* BetterSnappingLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetterSnappingLayout.swift; sourceTree = "<group>"; };
+		1611FCDB231B58E000B86901 /* animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation.swift; sourceTree = "<group>"; };
 		1682042B22CC86B800BF436C /* AppsGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsGroupCell.swift; sourceTree = "<group>"; };
 		1682042D22CCB92A00BF436C /* AppHorizontalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHorizontalController.swift; sourceTree = "<group>"; };
 		1682042F22CCBC4600BF436C /* AppRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRowCell.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				16BE7C3522C7B4AB00573910 /* VerticalStackView.swift */,
 				1687C11922CB5EA900060194 /* Extensions.swift */,
 				160595B422DC295C00FF91E2 /* BetterSnappingLayout.swift */,
+				1611FCDB231B58E000B86901 /* animation.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				16BE7C3A22C7B92400573910 /* BaseTabBarController.swift in Sources */,
 				160595B522DC295C00FF91E2 /* BetterSnappingLayout.swift in Sources */,
 				16BE7C3822C7B50700573910 /* SearchResultCell.swift in Sources */,
+				1611FCDC231B58E000B86901 /* animation.swift in Sources */,
 				1682043A22CD4E9500BF436C /* SocialApp.swift in Sources */,
 				16BE7C1B22C7A55E00573910 /* ViewController.swift in Sources */,
 				1682043822CD08CD00BF436C /* AppGroup.swift in Sources */,

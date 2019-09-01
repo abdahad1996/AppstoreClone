@@ -70,7 +70,8 @@ class AppsSearchController: UICollectionViewController, UICollectionViewDelegate
             Service.shared.fetchApps(searchTerm: searchText) { (res, err) in
                 self.appResults = res?.results ?? []
                 DispatchQueue.main.async {
-                    self.collectionView.reloadData()
+//                    self.collectionView.reloadData()
+                    self.reload(collectionView: self.collectionView, animationDirection: "left")
                 }
             }
             

@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppstoreClone/Views/Apps/AppRowCell.swift"
-            timestampString = "584102547.7291861"
+            timestampString = "588844031.125653"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppstoreClone/Views/SearchResultCell.swift"
-            timestampString = "584747052.553233"
+            timestampString = "588995030.994206"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
             landmarkName = "init(frame:)"
             landmarkType = "7">
          </BreakpointContent>

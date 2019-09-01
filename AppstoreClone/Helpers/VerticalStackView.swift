@@ -11,6 +11,8 @@ class VerticalStackView: UIStackView {
         
         self.spacing = spacing
         self.axis = .vertical
+        self.alignment = .fill
+        self.backgroundColor = .blue 
     }
     
     required init(coder: NSCoder) {
